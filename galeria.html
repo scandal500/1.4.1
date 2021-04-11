@@ -15,28 +15,28 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container bg-warning">
         <!-- Aquí navbar -->
         <nav class="navbar navbar-expand-lg navbar-warning bg-warning">
-            <div class="container-fluid ">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <div class="container-fluid border-bottom border-primary" >
+                <button class="navbar-toggler " type="button " data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" style="color:#1c819e;" href="#">Inicio</a>
+                        <li class="nav-item " >
+                            <a class="nav-link  " style="color:#1c819e;" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" style="color:#1c819e;" href="#">Galeria</a>
+                            <a class="nav-link" style="color:#1c819e;" href="galeria.html">Galeria</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" style="color:#1c819e;" href="#">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" style="color:#1c819e;" href="#">Contacto</a>
+                            <a class="nav-link" style="color:#1c819e;" href="contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item registro">
                             <a class="nav-link" style="color:#1c819e;" href>Registrate</a>
@@ -55,54 +55,68 @@
         <!-- fin navbar -->
         <!-- Aquí galeria-->
         <div class="row">
-            <h1 class="text-center display-4 my-4">Galeria de Imagenes</h1>
-            <div class="container">
-                <div class="card-columns" id="galeria">
-                    <div class="card">
-                        <a href="#" data-toggle="modal" data-target="#exampleModal">
-                            <img src="galeria/1.png" alt=""
-                                class="card-img-top">
-                        </a>
-                    </div>
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <button type="button" class="close mr-3" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                            <img src="galeria/1.png" alt="" class="img-fluid rounded">
-                        </div>
-                    </div>
-                    <!-- ciclo -->
-                </div>
-                <script>
-                    var imagenes = [1,2,3,4,5,6,7,8,9,10];
-                    var galeria = document.getElementById('galeria');
-                    
-                    for(imagen of imagenes){
-                        galeria.innerHTML += `
-                        <div class="card-columns" id="galeria">
-                    <div class="card">
-                        <a href="#" data-toggle="modal" data-target="#id${imagen}">
-                            <img src="galeria/${imagen}.png" alt=""
-                                class="card-img-top">
-                        </a>
-                    </div>
-                    <div class="modal fade" id="id${imagen}" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <button type="button" class="close mr-3" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                            <img src="galeria/${imagen}.png" alt="" class="img-fluid rounded">
-                        </div>
-                    </div>
-                </div>
-                        `
-                    }
-                    
-                </script>
+            <div class="col-3">
+                <a href="info-carousel.html">
+                    <img src="galeria/1.png" class="img-fluid  py-2 px-2" style="height: 9rem; width: 13rem; border-radius: 15px;" alt="imagen 1">
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="info-carousel.html">
+                    <img src="galeria/2.png" class="img-fluid  py-2 px-2" style="height: 9rem; width: 13rem; border-radius: 15px;" alt="imagen 1">
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="info-carousel.html">
+                    <img src="galeria/3.png" class="img-fluid  py-2 px-2" style="height: 9rem; width: 13rem; border-radius: 15px;" alt="imagen 1">
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="info-carousel.html">
+                    <img src="galeria/4.png" class="img-fluid  py-2 px-2" style="height: 9rem; width: 13rem; border-radius: 15px;" alt="imagen 1">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <a href="info-carousel.html">
+                    <img src="galeria/5.png" class="img-fluid  py-2 px-2" style="height: 9rem; width: 13rem; border-radius: 15px;" alt="imagen 1">
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="info-carousel.html">
+                    <img src="galeria/6.png" class="img-fluid  py-2 px-2" style="height: 9rem; width: 13rem; border-radius: 15px;" alt="imagen 1">
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="info-carousel.html">
+                    <img src="galeria/7.png" class="img-fluid  py-2 px-2" style="height: 9rem; width: 13rem; border-radius: 15px;" alt="imagen 1">
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="info-carousel.html">
+                    <img src="galeria/8.png" class="img-fluid  py-2 px-2" style="height: 9rem; width: 13rem; border-radius: 15px;" alt="imagen 1">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <a href="info-carousel.html">
+                    <img src="galeria/9.png" class="img-fluid  py-2 px-2" style="height: 9rem; width: 13rem; border-radius: 15px;" alt="imagen 1">
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="info-carousel.html">
+                    <img src="galeria/10.png" class="img-fluid  py-2 px-2" style="height: 9rem; width: 13rem; border-radius: 15px;" alt="imagen 1">
+                </a>
+            </div>
+            <div class="col-3">
+
+            </div>
+            <div class="col-3">
+
+            </div>
+        </div>
+        <!-- fin galeria -->
             </div>
         </div>
     </div>

@@ -1,3 +1,9 @@
 body{
     background-color:#005874;
 }
+.nav-link:hover{
+    background-color:#e6e6d4;
+    opacity: 0.5;
+    border-radius: 5px;
+    
+}
