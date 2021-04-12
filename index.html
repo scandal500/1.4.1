@@ -14,7 +14,7 @@
 <body>
     <div class="container bg-warning">
         <!-- Aquí navbar -->
-        <nav class="navbar navbar-expand-lg navbar-warning bg-warning">
+        <nav class="navbar navbar-expand-lg navbar-warning bg-warning sticky-top">
             <div class="container-fluid border-bottom border-primary">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -23,6 +23,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <a class="navbar-brand" href="#"><img
+                                src="https://www.flaticon.com/svg/vstatic/svg/81/81836.svg?token=exp=1618256949~hmac=65b8075cf234332fd2b83910992f3d2a"
+                                class="d-inline-block align-text-top img-fluid rounded"
+                                style="height: 2rem; width: 2rem;"></a>
+
                         <li class="nav-item">
                             <a class="nav-link" style="color:#1c819e;" href="index.html">Inicio</a>
                         </li>
@@ -41,7 +46,7 @@
                                 data-bs-toggle="dropdown" style="color:#1c819e;" aria-expanded="false">
                                 Iniciar sesion
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <ul class="dropdown-menu bg-warning" aria-labelledby="navbarDropdown">
                                 <li>
                                     <form class="dropdown-item">
                                         <div class="mb-3">
@@ -77,6 +82,7 @@
         <div class="row pb-2">
             <div id="carouselExampleCaptions" class="carousel slide pt-2 " data-bs-ride="carousel">
                 <div class="carousel-indicators">
+
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
@@ -188,8 +194,8 @@
             </div>
         </div>
         <!-- Fin carousel-->
-        <div class="row pb-2 ">
-            <div class="col-6">
+        <div class="row row-cols-1 row-cols-lg-2 pb-2 ">
+            <div class="col pb-2  ">
                 <div class="card " style="width: 18rem; left: 5rem; height: 30rem;">
                     <img src="https://cdn.pixabay.com/photo/2014/06/04/16/36/man-362150_960_720.jpg"
                         class="card-img-top " alt="...">
@@ -215,7 +221,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col">
                 <div class="card " style="width: 18rem; left: 5rem; height: 30rem;">
                     <img src="https://cdn.pixabay.com/photo/2020/03/14/05/38/screw-4929711_960_720.jpg"
                         class="card-img-top" alt="...">

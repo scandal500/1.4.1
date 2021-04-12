@@ -7,3 +7,6 @@ body{
     border-radius: 5px;
     
 }
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.2);
+}
