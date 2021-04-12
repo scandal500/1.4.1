@@ -11,8 +11,8 @@
     <title>Contacto</title>
 </head>
 
-<body class="container">
-    <div class="container">
+<body>
+    <div class="container bg-warning">
         <div class="row">
             <!-- Aquí navbar -->
             <nav class="navbar navbar-expand-lg navbar-warning bg-warning">
@@ -30,9 +30,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" style="color:#1c819e;" href="#">Galeria</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" style="color:#1c819e;" href="#">Nosotros</a>
-                            </li>
+                            
                             <li class="nav-item">
                                 <a class="nav-link" style="color:#1c819e;" href="contacto.html">Contacto</a>
                             </li>
@@ -53,40 +51,50 @@
         </div>
         <!-- fin navbar -->
         <!-- Formulario de contacto -->
-        <div class="row bg-warning pb-3" style="height: 35rem;">
-            <div class="col-5">
-                <form>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">Jamaz compartiremos su direccion de correo con alguien
-                            más.</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Nombre Completo</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3" >
-                        <label for="exampleInputPassword1" class="form-label">Motivo de contacto</label>
-                        <input type="password" class="form-control" style="height: 10rem;" id="exampleInputPassword1">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Acceder</button>
-                </form>
-            </div>
-            <div class="col-7">
-                <div class="card mt-5" style="width: 20rem; height: 20rem; position: relative;">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="card-link">Redes</a>
-                        <a href="#" class="card-link">Redes</a>
+        <div class="container">
+            <div class="row bg-warning pb-3 mx-3" style="height: 35rem;">
+
+                <div class="col-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">Jamaz compartiremos su direccion de correo con alguien
+                                más.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Nombre Completo</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Motivo de contacto</label>
+                            <input type="password" class="form-control" style="height: 10rem;"
+                                id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Acceder</button>
+                    </form>
+                </div>
+
+                <div class="col-7">
+                    <div class="card mt-5" style="width: 20rem; height: 20rem; position: relative; left: 9rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Desea contar con nuestros servicios?</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Contactenos</h6>
+                            <p class="card-text">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Nro-contacto: xxxxxxxxxxx</li>
+                                <li class="list-group-item">Direccion: Calle falsa N°123</li>
+
+                            </ul>
+                            </p>
+                            <a href="#" class="card-link">Redes</a>
+                            <a href="#" class="card-link">Redes</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <!-- Fin form -->
     </div>
 
