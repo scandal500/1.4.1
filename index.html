@@ -36,8 +36,33 @@
                         <li class="nav-item registro">
                             <a class="nav-link" style="color:#1c819e;" href="#">Registrate </a>
                         </li>
-                        <li class="nav-item registro">
-                            <a class="nav-link" style="color:#1c819e;" href="#">Iniciar Sesion</a>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" style="color:#1c819e;" aria-expanded="false">
+                                Iniciar sesion
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <form class="dropdown-item">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Nombre de usuario</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                    
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Recordar datos</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Entrar</button>
+                                    </form>
+                                </li>
+
+                            </ul>
                         </li>
                     </ul>
                     <form class="d-flex">
